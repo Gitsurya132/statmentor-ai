@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  border-color: theme("colors.slate.200");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #172033;
+  background: #f7f9fc;
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+::selection {
+  background: #dbeafe;
+  color: #172033;
+}

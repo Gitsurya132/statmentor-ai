@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.env.local
+node_modules/
+.next/
+__pycache__/
+storage/
+.pnpm-store/
+*.pyc
+*.tsbuildinfo
+StatMentor_AI.mp4
+Test Data/
